@@ -1,0 +1,116 @@
+{
+  "mutti_bread_rolls": {
+    "name": "Mutti's Bread Rolls",
+    "base_servings": 10,
+    "versions": [
+      {
+        "version_id": 1,
+        "recipe_id": "mutti_bread_rolls",
+        "ingredients": [
+          {
+            "name": "Flour",
+            "original_amount": 2,
+            "original_unit": "cup",
+            "normalized_grams": 480,
+            "is_ambiguous": false
+          },
+          {
+            "name": "Water",
+            "original_amount": 300,
+            "original_unit": "ml",
+            "normalized_grams": 300,
+            "is_ambiguous": false
+          },
+          {
+            "name": "Salt",
+            "original_amount": 1,
+            "original_unit": "teaspoon",
+            "normalized_grams": 5,
+            "is_ambiguous": false
+          },
+          {
+            "name": "Yeast",
+            "original_amount": 1,
+            "original_unit": "tablespoon",
+            "normalized_grams": 15,
+            "is_ambiguous": false
+          },
+          {
+            "name": "Sugar",
+            "original_amount": 1,
+            "original_unit": "tablespoon",
+            "normalized_grams": 15,
+            "is_ambiguous": false
+          }
+        ],
+        "non_linear_rules": [
+          {
+            "ingredient_name": "Salt",
+            "max_multiplier": 1.5,
+            "threshold": 500
+          }
+        ],
+        "base_servings": 10,
+        "mutti_approved": true,
+        "modified_by": "Mutti",
+        "timestamp": "2026-04-29T10:00:00"
+      }
+    ]
+  },
+  "test_cake": {
+    "name": "test_cake",
+    "base_servings": 10,
+    "versions": [
+      {
+        "version_id": 1,
+        "recipe_id": "test_cake",
+        "ingredients": [
+          {
+            "name": "flour",
+            "original_amount": 250.0,
+            "original_unit": "g",
+            "normalized_grams": 250.0,
+            "is_ambiguous": false
+          },
+          {
+            "name": "sugar",
+            "original_amount": 100.0,
+            "original_unit": "g",
+            "normalized_grams": 100.0,
+            "is_ambiguous": false
+          }
+        ],
+        "non_linear_rules": [],
+        "base_servings": 10,
+        "mutti_approved": true,
+        "modified_by": "Mutti",
+        "timestamp": "2026-06-09T10:48:47.420309"
+      },
+      {
+        "version_id": 2,
+        "recipe_id": "test_cake",
+        "ingredients": [
+          {
+            "name": "flour",
+            "original_amount": 250.0,
+            "original_unit": "g",
+            "normalized_grams": 250.0,
+            "is_ambiguous": false
+          },
+          {
+            "name": "sugar",
+            "original_amount": 100.0,
+            "original_unit": "g",
+            "normalized_grams": 100.0,
+            "is_ambiguous": false
+          }
+        ],
+        "non_linear_rules": [],
+        "base_servings": 10,
+        "mutti_approved": true,
+        "modified_by": "emergency_admin",
+        "timestamp": "2026-06-09T10:59:13.774068"
+      }
+    ]
+  }
+}
